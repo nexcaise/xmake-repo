@@ -4,7 +4,8 @@ package("ncapi")
     set_kind("library")
     add_urls("https://github.com/nexcaise/ncapi/archive/refs/tags/$(version).tar.gz")
     
-    
+    add_versions("0.0.2-beta.4", "45ff207a23b38eba94217bdc622d5351cdaf7b45a0282029fe23f3e2d82bdca4")
+
     add_versions("0.0.2-beta.3", "e3e0b3b48316e197cdaa0c1ab60763887309c19b18c92f24ef0959a22c096c27")
 
     add_deps("cmake")
