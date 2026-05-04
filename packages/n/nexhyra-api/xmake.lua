@@ -5,6 +5,7 @@ package("nexhyra-api")
     add_urls("https://github.com/nexcaise/nexhyra-api/archive/refs/tags/$(version).tar.gz",
              "https://github.com/nexcaise/nexhyra-api.git")
 
+    add_versions("0.0.1-alpha.2", "4bc6c0d8ee934d3756e6e50a67abfd6a257edd459ac87fdb33b4f873e32da13c")
     add_versions("0.0.1-alpha.1", "588e827f6ef719857118cb6ead8089e71cc0b1f0bd5e1de18b97dfe242dc39ed")
 
     add_deps("cmake")
