@@ -5,7 +5,7 @@ package("nexhyra-api")
     add_urls("https://github.com/nexcaise/nexhyra-api/archive/refs/tags/$(version).tar.gz",
              "https://github.com/nexcaise/nexhyra-api.git")
 
-    add_versions("0.0.1-alpha.5", "e19730e2c793c3d1bfc2cf7034898e99c6ebf0c202b2c8034ba93fc2875fe2b7")
+    add_versions("0.0.1-alpha.6", "6389e2da8451d034ca048a78cf062c4df339521ccb944c6c9db83b08d738f3f8")
     add_versions("0.0.1-alpha.3", "5cb90a88fd4085405e1d6cb081d131c45713124437f5ba3fa70db5ccf3f2b260")
     add_versions("0.0.1-alpha.2", "4bc6c0d8ee934d3756e6e50a67abfd6a257edd459ac87fdb33b4f873e32da13c")
     add_versions("0.0.1-alpha.1", "588e827f6ef719857118cb6ead8089e71cc0b1f0bd5e1de18b97dfe242dc39ed")
