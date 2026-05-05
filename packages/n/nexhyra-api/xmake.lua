@@ -14,7 +14,6 @@ package("nexhyra-api")
     on_load(function (package)
         package:data_set("cmake.build_shared", true)
         package:add("includedirs", "include")
-        package:add("cxflags", "-fdeclspec", {force = true})
     end)
 
     on_install(function (package)
